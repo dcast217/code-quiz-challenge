@@ -1,0 +1,71 @@
+body {
+    background-color: #f2f2f2;
+  }
+  :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --text-color: #333333;
+  }
+  
+  /* Example usage */
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  a {
+    color: var(--secondary-color);
+  }
+  .container {
+    padding: 20px;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+  button, a {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  button:hover, a:hover {
+    background-color: #0056b3;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 20px;
+    }
+  }
+  button, a {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover, a:hover {
+    background-color: #0056b3;
+  }
